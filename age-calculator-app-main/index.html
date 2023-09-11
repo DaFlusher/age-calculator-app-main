@@ -22,8 +22,38 @@
 </head>
 <body>
 
-    <div class="container">
-      
+    <div class="container-lg">
+      <!--Defining the form elements to display inline by using bootstrap rows and cols-->
+        <form >
+            <div class="row">
+                <div class="col">
+                  <label for="day" class="form-label">DAY</label>
+                  <input id="day" type="number" class="form-control" placeholder="24">
+                </div>
+
+                <div class="col">
+                  <label for="month" class="form-label">MONTH</label>
+                  <input id="day" type="number" class="form-control" placeholder="09">
+                </div>
+
+                <div class="col">
+                  <label for="year" class="form-label">YEAR</label>
+                  <input id="year" type="number" class="form-control" placeholder="1984">
+                </div>
+            </div>
+        </form>
+
+        <div class="container">
+
+          <div class="row">
+            <h1 id="years"></h1>
+
+            <h1 id="months"></h1>
+
+            <h1 id="days"></h1>
+          </div>
+          
+        </div>
     </div>
 
   Day
